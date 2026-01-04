@@ -17,3 +17,34 @@ class Person:
             return f"меня зовут {self.name}, я родилась {self.birth_date}, по профессии {self.profession}, высшего образования нет"
         else:
             return f"Меня зовут {self.name}, я родилась {self.birth_date}, профессии нет, высшего образования нет"
+class Classmate(Person):
+    def __init__(self, name, friend_name, birth_date, higher_education, profession, group_name):
+        super().__init__(name, birth_date, higher_education, profession)
+        self.group_name = group_name
+        self.friend_name = friend_name
+
+    def introduce(self):
+        print(f"Привет, меня зовут {self.name}, я одноклассник {self.friend_name}, я родился {self.birth_date}, я работаю {self.profession}")
+
+class Friend(Person):
+    def __init__(self, name, friend_name,  birth_date, higher_education, profession, hobby):
+        super().__init__(name, birth_date, higher_education, profession)
+        self.hobby = hobby
+        self.friend_name = friend_name
+
+    def introduce(self):
+        print(f"Привет, меня зовут {self.name}, я друг {self.friend_name}, я родился {self.birth_date}, я работаю {self.profession}")
+print("*" * 35)
+friend = Friend("Алмаз", "Арины", "5.12.2000", "", "программистом", "рисую")
+friend.introduce()
+print(friend.hobby)
+friend = Friend("Аня", "Насти", "25.06.2008", "", "менеджером", "читаю книги")
+friend.introduce()
+print(friend.hobby)
+print("*" * 35)
+classmate = Classmate("Бектур", "Арины", "5.12.2000", "", "программистом", "61")
+classmate.introduce()
+print(f"номер группы: {classmate.group_name}")
+classmate = Classmate("Аяна", "Насти", "02.12.2009", "", "хирургом", "22")
+classmate.introduce()
+print(f"номер группы: {classmate.group_name}")
