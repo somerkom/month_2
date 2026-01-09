@@ -17,7 +17,13 @@ class Bus(Car):
         super().drive_to(destination)
         print(f"Bus {self.model} driving to", destination)
 
-bus_42 = Bus("Ikarus","green", 42)
-print(bus_42.number)
-print(bus_42.color)
-bus_42.drive_to("Bishkek")
+class Truck(Car):
+    def drive_to(self, destination):
+        print(f"Truck driving to", destination)
+
+bus = Bus("Mercedes", "red", 42)
+truck = Truck("MAN", "white")
+car = Car("Subaru", "red")
+vehicles = (bus, truck, car)
+for v in vehicles:
+    v.drive_to("Bishkek")
