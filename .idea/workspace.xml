@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f071d07-2e76-42c3-a970-7434f17b3a6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lessons/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/money.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/homework_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/homework_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/homework_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/homework_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/homework_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/money.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/money.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
