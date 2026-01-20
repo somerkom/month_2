@@ -23,8 +23,6 @@ class Money:
             else:
                 return True
 
-
-
 money_igor = Money(100)
 money_danil = Money(200)
 print(money_igor.amount)
